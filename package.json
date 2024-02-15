@@ -1,0 +1,32 @@
+{
+  "name": "all-str-gen",
+  "version": "0.0.1",
+  "description": "For random strings, numbers, hashes and passphrase generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matayo-ayo/all-str-gen.git"
+  },
+  "keywords": [
+    "string",
+    "string generator",
+    "str-gen"
+  ],
+  "author": "Matayo Ayo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matayo-ayo/all-str-gen/issues"
+  },
+  "homepage": "https://github.com/matayo-ayo/all-str-gen#readme",
+  "files": [
+    "lib/",
+    "words",
+    "index.js"
+  ],
+  "devDependencies": {
+    "crypto": "^1.0.1"
+  }
+}
