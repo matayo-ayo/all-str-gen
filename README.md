@@ -12,10 +12,10 @@ npm install all-str-gen
 const allstrgen = require('all-str-gen')
 
 # syntax
-const stringGenerator = allstrgen.stringGenerator(count, uppercase, lowercase, number, symbols)
+const string = allstrgen.stringGenerator(count, uppercase, lowercase, number, symbols)
 
 # usage
-const stringGenerator = allstrgen.stringGenerator(8, true, true, false, true)
+const string = allstrgen.stringGenerator(8, true, true, false, true)
 ```
 
 ---
@@ -25,10 +25,10 @@ const stringGenerator = allstrgen.stringGenerator(8, true, true, false, true)
 const allstrgen = require('all-str-gen')
 
 # syntax
-const sentenceGenerator = allstrgen.generatePassphrase(count)
+const passPhrase = allstrgen.generatePassphrase(count)
 
 # usage
-const sentenceGenerator = allstrgen.generatePassphrase(5)
+const passPhrase = allstrgen.generatePassphrase(5)
 ```
 
 ---
@@ -38,10 +38,10 @@ const sentenceGenerator = allstrgen.generatePassphrase(5)
 const allstrgen = require('all-str-gen')
 
 # syntax
-const hashGenerator = allstrgen.generateHash(input)
+const hash = allstrgen.generateHash(input)
 
 # usage
-const hashGenerator = allstrgen.generateHash('my string')
+const hash = allstrgen.generateHash('my string')
 ```
 
 NOTE:
