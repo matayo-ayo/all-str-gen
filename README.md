@@ -43,6 +43,3 @@ const hash = allstrgen.generateHash(input)
 # usage
 const hash = allstrgen.generateHash('my string')
 ```
-
-NOTE:
-- You need crypto dependcy installed to use hash method run ```npm i crypto```
