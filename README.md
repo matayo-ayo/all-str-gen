@@ -7,41 +7,41 @@ npm install all-str-gen
 ```
 
 ## Usage
-#### string Generator
+### string Generator
 ```bash
 const allstrgen = require('all-str-gen')
 
 # syntax
-const stringGenerator = allstrgen.string(count, uppercase, lowercase, number, symbols)
+const stringGenerator = allstrgen.stringGenerator(count, uppercase, lowercase, number, symbols)
 
 # usage
-const stringGenerator = allstrgen.string(8, true, true, false, true)
+const stringGenerator = allstrgen.stringGenerator(8, true, true, false, true)
 ```
 
 ---
 
-#### Sentence Generator
+### Passphrase Generator
 ```bash
 const allstrgen = require('all-str-gen')
 
 # syntax
-const sentenceGenerator = allstrgen.passphrase(count)
+const sentenceGenerator = allstrgen.generatePassphrase(count)
 
 # usage
-const sentenceGenerator = allstrgen.passphrase(5)
+const sentenceGenerator = allstrgen.generatePassphrase(5)
 ```
 
 ---
 
-#### Hash generator
+### Hash generator
 ```bash
 const allstrgen = require('all-str-gen')
 
 # syntax
-const hashGenerator = allstrgen.hash(input)
+const hashGenerator = allstrgen.generateHash(input)
 
 # usage
-const hashGenerator = allstrgen.hash('my string')
+const hashGenerator = allstrgen.generateHash('my string')
 ```
 
 NOTE:

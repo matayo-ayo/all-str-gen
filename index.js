@@ -11,7 +11,7 @@ module.exports = {
         return passphraseGenerator.generatePassphrase(count);
     },
 
-    generateString: function (count, cap, low, num, sym) {
-        return stringGenerator.stringGenerator(count, cap, low, num, sym);
+    generateString: function (count, uppercase, lowcase, numbers, symbols) {
+        return stringGenerator.stringGenerator(count, uppercase, lowcase, numbers, symbols);
     }
 };
