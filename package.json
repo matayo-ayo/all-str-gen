@@ -1,6 +1,6 @@
 {
   "name": "all-str-gen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "For random strings, numbers, hashes and passphrase generator",
   "main": "index.js",
   "scripts": {
