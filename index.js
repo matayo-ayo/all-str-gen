@@ -1,15 +1,15 @@
-const hashGenerator = require('./lib/hashGenerator');
-const passphraseGenerator = require('./lib/passphraseGenerator');
-const stringGenerator = require('./lib/stringGenerator');
+const passphrase = require('./lib/passphraseGenerator');
+const hash = require('./lib/hashGenerator');
+const string = require('./lib/stringGenerator');
 
 module.exports = {
+    generateString: function (count, uppercase, lowcase, numbers, symbols) {
+        return string.stringGenerator(count, uppercase, lowcase, numbers, symbols);
+    },
     generateHash: function (string) {
-        return hashGenerator(string); 
+        return hash.hashGenerator(string);
     },
     generatePassphrase: function (count) {
-        return passphraseGenerator.generatePassphrase(count);
-    },
-    generateString: function (count, uppercase, lowcase, numbers, symbols) {
-        return stringGenerator.stringGenerator(count, uppercase, lowcase, numbers, symbols);
+        return passphrase.passphraseGenerator(count);
     }
 };
