@@ -4,13 +4,11 @@ const stringGenerator = require('./lib/stringGenerator');
 
 module.exports = {
     generateHash: function (string) {
-        return hashGenerator.generateHash(string);
+        return hashGenerator(string); 
     },
-
     generatePassphrase: function (count) {
         return passphraseGenerator.generatePassphrase(count);
     },
-
     generateString: function (count, uppercase, lowcase, numbers, symbols) {
         return stringGenerator.stringGenerator(count, uppercase, lowcase, numbers, symbols);
     }
