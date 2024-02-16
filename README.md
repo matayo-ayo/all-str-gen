@@ -1,26 +1,31 @@
 # All Strings Generator
-This package provides functions for generating random strings, numbers, hashes and sentences
+This package provides functions for generating passphrases, random strings, random numbers and hashes
 
 ## Installation
-```bash
-npm install all-str-gen
-```
+Run ```npm i all-str-gen``` to install package to project
 
 ## Usage
 ### string Generator
+Generate mixed strings with any length using true and false
+- Generate usernames
+- Generate password
+- Generate control numbers
+- Generate keys
 ```bash
 const allstrgen = require('all-str-gen')
 
 # syntax
-const string = allstrgen.stringGenerator(count, uppercase, lowercase, number, symbols)
+const string = allstrgen.generateString(count, uppercase, lowercase, number, symbols)
 
 # usage
-const string = allstrgen.stringGenerator(8, true, true, false, true)
+const string = allstrgen.generateString(8, true, true, false, true)
 ```
 
 ---
 
 ### Passphrase Generator
+Generate passphrases with a word count
+- Generate passphrase
 ```bash
 const allstrgen = require('all-str-gen')
 
@@ -34,6 +39,9 @@ const passPhrase = allstrgen.generatePassphrase(5)
 ---
 
 ### Hash generator
+create irevisible hash from string
+#### NOTE:
+- To use this function you need crypto package installed run ```npm i crypto``` to install
 ```bash
 const allstrgen = require('all-str-gen')
 

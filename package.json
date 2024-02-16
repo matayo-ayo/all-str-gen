@@ -1,7 +1,7 @@
 {
   "name": "all-str-gen",
   "version": "0.0.5",
-  "description": "For random strings, numbers, hashes and passphrase generator",
+  "description": "Generate passphrases, random strings, random numbers and hashes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,12 +11,17 @@
     "url": "git+https://github.com/matayo-ayo/all-str-gen.git"
   },
   "keywords": [
-    "string",
+    "all-str-gen",
+    "random string",
+    "hash generator",
+    "keys generator",
+    "codes generator",
     "string generator",
-    "str-gen"
+    "password generator",
+    "passphrase generator"
   ],
   "author": "Matayo Ayo",
-  "license": "MIT",
+  "license": "Custom",
   "bugs": {
     "url": "https://github.com/matayo-ayo/all-str-gen/issues"
   },
