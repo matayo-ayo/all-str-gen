@@ -23,9 +23,9 @@
   "author": "Matayo Ayo",
   "license": "Custom",
   "bugs": {
-    "url": "https://github.com/matayo-ayo/all-str-gen/issues"
+    "url": "https://github.com/matayo-ayo/all-str-gen/"
   },
-  "homepage": "https://github.com/matayo-ayo/all-str-gen#readme",
+  "homepage": "https://matayo-ayo.github.io/all-str-gen",
   "files": [
     "lib/",
     "words",

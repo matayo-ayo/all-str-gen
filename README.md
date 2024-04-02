@@ -20,7 +20,7 @@ const string = allstrgen.generateString(count, uppercase, lowercase, number, sym
 # usage
 const string = allstrgen.generateString(8, true, true, false, true)
 ```
-
+   
 ---
 
 ### Passphrase Generator
@@ -51,3 +51,5 @@ const hash = allstrgen.generateHash(input)
 # usage
 const hash = allstrgen.generateHash('my string')
 ```
+
+[Documentation](https://matayo-ayo.github.io/all-str-gen)
