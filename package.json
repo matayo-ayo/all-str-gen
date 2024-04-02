@@ -1,6 +1,6 @@
 {
   "name": "all-str-gen",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "npm package that offer vibrant toolbox for crafting captivating strings, Numbers, unique hashes and secured passphrase sentences",
   "main": "index.js",
   "scripts": {
