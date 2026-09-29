@@ -1,0 +1,14 @@
+exports.generateString = require('./lib/generators').generateString;
+exports.generatePassword = require('./lib/generators').generatePassword;
+exports.generatePassphrase = require('./lib/generators').generatePassphrase;
+exports.generateHash = require('./lib/hashGenerator').hashGenerator;
+exports.generateUsername = require('./lib/generators').generateUsername;
+exports.generatePIN = require('./lib/generators').generatePIN;
+exports.generateToken = require('./lib/generators').generateToken;
+exports.generateNumber = require('./lib/generators').generateNumber;
+exports.generateUUID = require('./lib/generators').generateUUID;
+exports.generateRecoveryCodes = require('./lib/advancedGenerators').generateRecoveryCodes;
+exports.generatePattern = require('./lib/advancedGenerators').generatePattern;
+exports.generateAlphanumericToken = require('./lib/advancedGenerators').generateAlphanumericToken;
+exports.generateNumericToken = require('./lib/advancedGenerators').generateNumericToken;
+exports.generateAlphabeticToken = require('./lib/advancedGenerators').generateAlphabeticToken;
