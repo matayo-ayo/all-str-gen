@@ -1,6 +1,6 @@
 {
   "name": "all-str-gen",
-  "version": "2.1.3",
+  "version": "3.0.1",
   "description": "Generate passwords, usernames, recovery codes, patterns, tokens, PINs and passphrases with cryptographic randomness and zero dependencies.",
   "types": "index.d.ts",
   "engines": { "node": ">=22" },
