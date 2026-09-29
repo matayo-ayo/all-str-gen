@@ -1,9 +1,11 @@
 {
   "name": "all-str-gen",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Generate passwords, usernames, recovery codes, patterns, tokens, PINs and passphrases with cryptographic randomness and zero dependencies.",
   "types": "index.d.ts",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "build": "node scripts/build.js",
     "test": "node --test",
@@ -12,8 +14,14 @@
   "main": "index.js",
   "exports": {
     ".": {
-      "import": { "types": "./index.d.mts", "default": "./index.mjs" },
-      "require": { "types": "./index.d.ts", "default": "./index.js" }
+      "import": {
+        "types": "./index.d.mts",
+        "default": "./index.mjs"
+      },
+      "require": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+      }
     },
     "./lib/*": "./lib/*",
     "./words/*": "./words/*",
